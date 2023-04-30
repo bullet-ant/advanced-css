@@ -1,0 +1,22 @@
+{
+  "name": "advanced-css",
+  "version": "1.0.0",
+  "description": "Try-out for some advanced CSS stuffs like grid, flex, animations, sass and all that jazz!",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass inception/sass/main.scss inception/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bullet-ant/advanced-css.git"
+  },
+  "author": "Aman Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bullet-ant/advanced-css/issues"
+  },
+  "homepage": "https://github.com/bullet-ant/advanced-css#readme"
+}
